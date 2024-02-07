@@ -11,15 +11,10 @@ int main() {
     v[i]=num;
     cout<<v[i]<<endl;
   }
-  cout<<"Nuovo vettore: "<<endl;
-  for(int i=0; i<DIM; i++) {
+  for(int i=0;i<DIM;i++){
     if(v[i]%2==0){
-      v[i]=v[i]*2;
-      cout<<v[i]<<endl;
-    }
-    else {
-      v[i]=v[i]*3;
-      cout<<v[i]<<endl;
+      cout<<"True";
+      break;
     }
   }
 }
